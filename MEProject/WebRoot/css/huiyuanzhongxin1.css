@@ -1,0 +1,160 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: none;
+	list-style: none;
+}
+i,em{
+	 font-style: normal;
+}
+ul,li{list-style: none;}
+body{font-family: "微软雅黑",arial,verdana;font-size:12px;color:#666;
+background: #f6f6f6;}
+img{border:0;display:block;}
+img {
+    vertical-align: middle;
+}
+a{
+	text-decoration: none;
+	color: #666;
+}
+a:hover{
+	text-decoration:underline;
+	color: #e4393c;
+}	
+.fl{
+	float: left;
+}	
+.fr{
+	float: right;
+}
+.text-orange {
+    color: #fa462d;
+}
+/**钱的样式**/
+.opr {
+    color: #fa462d;
+    font-family: arial;
+}
+/*头部样式开始*/
+header{
+	width:100%;
+    height:40px;
+    background: #fff;
+    border-bottom:1px solid #f6f6f6;
+    }
+#header_top{
+	width:100%;
+    height:40px;
+    border-bottom:1px solid #ccc;
+			}
+#top_1200{
+	width:1200px;
+	heigh:40px;
+	margin:0 auto;
+	}
+#top_1200 b{
+	font-weight: normal;
+	line-height:40px;
+	}
+#top_1200 ul{
+	float:right;
+	}
+#top_1200 li{
+	float:left;
+	margin-left:40px;
+	line-height:40px;
+	}
+#top_1200 li a{
+	color:#333;
+	text-decoration: none;
+	}
+#top_1200 li a:hover{
+	color:#3c3389;
+	text-decoration: underline;
+	}
+#top_1200 strong{
+	float:right;
+	font-weight: normal;
+	line-height:40px;
+	}
+#top_1200 strong a{
+	color:#3c3389;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+/************header************/
+.header {
+    position: relative;
+    z-index: 10;
+}
+.header-body {
+    padding: 18px 0;
+    height: 73px;
+}
+.header_box {
+    margin-left: 240px;
+    float: left;
+    overflow: hidden;
+    margin-top: 32px;
+    color: #595757;
+}
+.huizx {
+    font-size: 30px;
+}
+.s_safew {
+    font-size: 16px;
+    padding-left: 9px;
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 16px;
+}
+.s_safew {
+    font-size: 16px;
+    padding-left: 9px;
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+/**************尾部********************/
+#footer{
+	margin-top: 50px;
+	height: 180px;
+}
+#tiaofu{
+	height: 50px;
+	width: 100%;
+	background: red;
+}
+#tiaofu ul{
+	width: 1000px;
+	margin: 0 auto;
+	background: green;
+}
+#tiaofu li{
+	float: left;
+	line-height: 50px;
+	padding: 0 30px;
+	font-size: 25px;
+	color: #fff;
+}
+#footer-link{
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 40px;
+	overflow: hidden;
+    text-align: center;
+}
+#footer-link li{
+	display: inline-block;
+}
+#footer-link span{
+	margin: 0 10px;
+}
+.copy{
+	text-align: center;
+	margin-top: 12px;
+	line-height: 20px;
+}

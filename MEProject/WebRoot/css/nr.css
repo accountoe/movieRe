@@ -1,0 +1,487 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: none;
+	list-style: none;
+}
+
+ul,li{list-style: none;}
+body{font-family: "微软雅黑",arial,verdana;font-size:14px;color:#666;
+background: #f6f6f6;}
+img{border:0;display:block;}
+img {
+    vertical-align: middle;
+}
+a{
+	text-decoration: none;
+	color: #666;
+}
+a:hover{
+	text-decoration:underline;
+	color: #e4393c;
+}		
+/*头部样式开始*/
+header{
+	width:100%;
+    height:40px;
+    background: #fff;
+    border-bottom:1px solid #f6f6f6;
+    }
+#header_top{
+	width:100%;
+    height:40px;
+    border-bottom:1px solid #ccc;
+			}
+#top_1200{
+	width:1200px;
+	heigh:40px;
+	margin:0 auto;
+	}
+#top_1200 b{
+	font-weight: normal;
+	line-height:40px;
+	}
+#top_1200 ul{
+	float:right;
+	}
+#top_1200 li{
+	float:left;
+	margin-left:40px;
+	line-height:40px;
+	}
+#top_1200 li a{
+	color:#333;
+	text-decoration: none;
+	}
+#top_1200 li a:hover{
+	color:#3c3389;
+	text-decoration: underline;
+	}
+#top_1200 strong{
+	float:right;
+	font-weight: normal;
+	line-height:40px;
+	}
+#top_1200 strong a{
+	color:#3c3389;
+	font-weight: bold;
+	text-decoration: none;}
+/********搜索标签************/
+#search{
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.re-search{
+	height: 40px;
+}
+.form{
+	height: 36px;
+}
+.form .search{
+	background: #f6f6f6;
+	float: left;
+    padding: 9px;
+    margin-left: 210px;
+    width: 472px;
+    height: 18px;
+    line-height: 18px;
+    border-width: 2px 0 2px 2px;
+    border-style: solid;
+    border-color: #82bef6;
+    outline: none;
+    font-size: 12px;
+}
+ .re-search .form .button {
+    float: left;
+    padding: 0px 6px 0px 13px;
+    height: 40px;
+    font-size: 18px;
+    border: none;
+    background: #82bef6;
+    color: #ffffff;
+    cursor: pointer;
+    letter-spacing: 10px;
+    line-height: 1px;
+}
+/********搜索标签************/
+/*导航样式开始*/
+#navi{
+	width: 1200px;
+	height: 40px;
+	margin: 10px auto;
+	background: #a0c5f6;
+}
+#all_cate,#navi_main{
+	float: left;
+}
+#all_cate{
+	width: 210px;
+}
+#cate_title{
+	background: #82bef6;
+	color: #fff;
+	font-weight: bold;
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 16px;
+}
+#cate_title a{
+	color: #fff;
+	text-decoration: none;
+	float: left;
+}
+#cate_title a:hover{
+	text-decoration: underline;
+}
+#cate_title i{
+	float: right;
+	width: 20px;
+	height: 20px;
+	background: url(../img/iconlist_2.png) no-repeat -65px 0px;
+	margin-top: 10px;
+}
+#navi_main li{
+	width: 100px;
+	padding-left: 30px;
+	height: 40px;
+	line-height: 40px;
+	text-align:center;
+	float: left;
+}
+#navi_main li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	font-size: 15px;
+	margin-right: 100px;
+	text-decoration: none;
+	font-weight: bold;
+}
+#navi_main li a:hover{
+	background: #69a0ec;
+}
+/*导航样式结束*/
+/**********wrapper样式开始**********/
+#wrapper{
+	width:1200px;
+	height: 2480px;
+	margin: 0 auto;
+	background: #fff;
+	margin-bottom: 20px;
+	
+}
+#title{
+	background: #f7f9fb;
+	height: 40px;
+	width: 100%;
+}
+#title li{
+	float: left;
+	padding-right:10px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #ccc;
+}
+#fenlei{
+	width: 100%;
+}
+.shaixuan{
+	height:34px;
+    border-top: 1px dashed #767575;
+    border-bottom: 1px dashed #767575;
+    background: #efefef;
+    line-height: 34px;
+}
+.shaixuan{
+    border-top: solid 1px #fa462d;
+    border-bottom: solid 1px #dcdddd;
+}
+.shaixuan span {
+  margin-right: 25px;
+}
+.shaixuan span em {
+    padding: 0 13px;
+    font-style: normal;
+}
+.attribute{
+    margin-bottom: 56px;
+    background: #f0f2f4;
+}
+.item{
+    border-bottom: dotted 1px #bbb;
+    overflow: hidden;
+    border-bottom: 1px dashed #767575;
+}
+.bb{
+	border-bottom: solid 1px #dcdddd;
+}
+.item-key{
+    font-weight: normal;
+    text-align: left;
+    width:100px;
+    color: #595757;
+    text-indent: 12px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.item-key{
+    float: left;
+    height: 34px;
+    font-size: 14px;
+    line-height: 34px;
+}
+.option{
+    height: 34px;
+    line-height:34px;
+    float: left;
+    margin-left: 10px;
+    width: 1050px;
+}
+.option ul li{
+	float: left;
+	margin-right: 30px;
+}
+#chanpin{
+	width: 1200px;
+	float: left;
+
+}
+.search{
+	width: 100%;
+}
+.sort{
+	padding: 9px;
+	height: 25px;
+	border-top: 1px dashed #767575;
+	border-bottom: 1px dashed #767575;
+	background: #efefef;
+}
+.sort{
+	height: 25px;
+	border-top: solid 1px #dcdddd;
+	border-bottom: solid 1px #dcdddd;
+	padding: 7px 9px 11px 9px;
+}
+.re_search {
+    float: left;
+    margin-left: 60px;
+    margin-top: 0px;
+    
+}
+.re-search .input{
+	width: 128px;
+	line-height: 12px;
+	height: 12px;
+	border: 1px solid #ddd;
+	padding: 7px 10px 8px 10px;
+	color: #595757;
+	outline: none;
+}
+.re-search .re-btn{
+	display: inline-block;
+	height: 20px;
+	line-height: 20px;
+	padding: 0px 10px;
+	margin-left: 10px;
+	margin-top: 4px;
+	font-size: 12px;
+	color: #fff;
+	border: 1px solid #ddd;
+	background: #fa462d;
+}
+.re-search em,i{
+	
+	font-size: 20px;
+	font-style: normal;
+}
+.re-search em{
+	float: right;
+	line-height: 27px;
+	margin-right: 15px;
+}
+.re-search em i{
+	color: orange;
+}
+.product-list{
+	margin-top: 10px;
+	margin-bottom: 50px;
+	width: 100%;	
+}
+.product-list ul li{
+	float: left;
+    margin:0 18px 0 19px;
+    width: 263px;
+}
+.product-list .package {
+    overflow: hidden;
+    height: 50px;
+ 
+}
+.product-list .wrap {
+    margin-top: 10px;
+    padding: 0 6px 19px;
+    width: 236px;
+    border: 1px solid #fff; 
+}
+.product-list .wrap:hover{
+	border: 1px solid #ddd;
+	box-shadow: 0 0 5px 2px #ddd;
+}
+.product-list .items a {
+    color: #595757;
+}
+.product-list .items img {
+    display: block;
+    width: 236px;
+    height: 236px;
+}
+.product-list .items .opr {
+    float: left;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fa462d;
+    font-family: arial
+}
+.product-list .items .opr .rmb {
+    font-style: normal;
+    padding-right: 4px;
+}
+.product-list .items .name {
+    display: block;
+    overflow: hidden;
+    width: 216px;
+    line-height: 2;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.product-list .items .extra {
+    overflow: hidden;
+    margin-bottom:10px;
+    height: 20px;
+}
+.product-list .items .extra .lib {
+    display: inline-block;
+    margin-right: 2px;
+    background: #fa462d;
+    color: #fff;
+    line-height: 14px;
+    padding: 0px 5px;
+    vertical-align: middle;
+    border-radius: 3px;
+    font-size: 10px;
+}
+.product-list .items .btn {
+    clear: both;
+    display: block;
+    height:24px;
+    
+}
+.product-list .items .btn .look {
+	display: block;
+	float: left;
+	width: 100px;
+    height: 24px;
+    line-height: 24px;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-size: 12px;
+    font-weight: normal;
+    color: #595757;  
+    background: #fff;  
+}
+.product-list .items .btn .collect {
+    float: right;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+/*************页脚******************/
+#yeshu{
+	height: 30px;
+	line-height: 30px;
+	width: 410px;
+	margin: 15px auto;
+	margin-top: 30px;
+	
+}
+#yeshu ul{
+	margin: 0 auto;
+	width: 210px;
+}
+#yeshu li{
+	width: 30px;
+	height: 28px;
+	text-align: center;
+	float: left;
+	margin-left: 5px;
+	margin-right: 5px;
+	border: 1px solid #ccc;	
+	border-radius: 3px;	
+}
+/**************尾部********************/
+#footer{
+	height: 180px;
+}
+#tiaofu{
+	height: 50px;
+	width: 100%;
+	background: red;
+}
+#tiaofu ul{
+	width: 800px;
+	margin: 0 auto;
+	background: green;
+}
+#tiaofu li{
+	float: left;
+	line-height: 50px;
+	padding: 0 30px;
+	font-size: 25px;
+	color: #fff;
+}
+#footer-link{
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 40px;
+	overflow: hidden;
+    text-align: center;
+}
+#footer-link li{
+	display: inline-block;
+}
+#footer-link span{
+	margin: 0 10px;
+}
+.copy{
+	text-align: center;
+	margin-top: 12px;
+	line-height: 20px;
+}
+.ft-img{
+	text-align: center;
+	margin: 12px 0;
+}
+.ft-img img{
+	margin: 10px 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**********wrapper样式结束**********/
+/**footer的样式**/

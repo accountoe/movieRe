@@ -1,0 +1,163 @@
+
+/*通用*/
+nav,article,footer,#section,#top_main{
+	border: 1px solid black;
+}
+body{
+	font-size: 12px;
+	font-family: "微软雅黑",arial,verdana;
+	color: #666;
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+ul,li,p,h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	padding: 0;
+	list-style:none;
+	border: none;
+}
+input{
+	border: none;
+}
+.lf{
+	float: left;
+}
+.rt{
+	float: right;
+}
+.clear{
+	clear: both;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration:underline;
+}
+#navi{
+	height: 119px;
+	width: 100%;
+	border-top: 1px solid #e2e2e4;
+	background: #fff;
+	
+}
+#navi_l{
+	
+	border: 1px solid black;
+	height: 100px;
+	width: 280px;
+	margin: 10px 0 9px 200px;
+	
+}
+#navi_r{
+	height: 100%;
+	width: 100px;
+	border:1px solid black;
+	text-align-last: center;
+}
+#navi_r h3{
+	color: #333;
+	font-weight: bold;
+	font-size: 20px;
+	padding-top: 80px;
+}
+#main{
+	height: 568px;
+	width: 100%;
+	background: url(img/beijing_1.jpg) repeat;
+	
+	
+}
+#denglu{
+	height: 442px;
+	width: 470px;
+	margin-right: 70px;
+	margin-top: 50px;
+	border: 1px solid #ddd;
+	box-shadow: 0 0  5px 2px #ddd;
+}
+#denglu_top{
+	height: 50px;
+	width: 100%;
+	border: 1px solid #ddd;
+}
+#denglu_top{
+	height: 50px;
+	width: 450px;
+	padding-left: 20px;
+	background: #eaeff3;
+	font-size: 16px;
+	line-height: 50px;
+}
+#denglu_top:hover{
+	background: #fff;
+	border-bottom: 3px solid #fe4533;
+}
+.denglu{
+	height: 300px;
+	width: 100%;
+	padding-top: 50px;
+	background: #fff;
+	border-bottom: 1px solid #ddd;
+}
+.line{
+	width: 470px;
+	height: 60px;
+	padding-top: 9px;
+}
+.kuang1{
+	display: block;
+	margin: auto;
+	width: 238px;
+	height: 16px;
+	padding: 10px 25px 10px 35px;
+	border: 1px solid #ddd;
+	background-repeat: no-repeat;
+	background-position: 5px center;
+}
+.user{
+	background-image: url(img/user.jpg);
+	
+}
+.pwd{
+	background-image: url(img/pwd.jpg);
+	
+}
+.xuanze{
+	display: block;
+	float: left;
+	margin-left:90px;
+	
+}
+.line a{
+	color: #d42830;
+	padding-left: 160px;
+	
+}
+ .btn{
+	display: block;
+	height: 42px;
+	width: 300px;
+	margin: auto;
+	color: #fff;
+	background: red;
+	border-radius: 3px;
+	font-size: 25px;
+	text-align: center;
+}
+#last{
+	height: 40px;
+	width: 100%;
+	text-align: center;
+	font-size: 16px;
+	background: #eaeff3;
+}
+#last a{
+	color: red;
+}
+footer{
+	height: 300px;
+	width: 100%;
+	background: #ddd;
+}
